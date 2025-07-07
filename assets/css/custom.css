@@ -140,18 +140,20 @@
 /* Special features styling */
 .special-features {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 1em;
     margin: 2em 0;
+    padding: 0 1em;
 }
 
 .special-features > div {
     text-align: center;
-    padding: 1.5em;
+    padding: 1.2em;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    margin: 0 1em;
     flex: 1;
+    max-width: calc(33.333% - 0.67em);
 }
 
 .special-features h3 {
