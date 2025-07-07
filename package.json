@@ -1,0 +1,22 @@
+{
+  "name": "studio-ghibli-presentation",
+  "version": "1.0.0",
+  "description": "Een interactieve Studio Ghibli presentatie voor groep 4",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build process needed - static files'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "presentation",
+    "revealjs",
+    "studio-ghibli",
+    "education"
+  ],
+  "author": "Aurélie",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
