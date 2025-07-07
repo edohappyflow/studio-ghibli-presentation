@@ -1,0 +1,18 @@
+PLACEHOLDER VOOR ANIMATED GIFS
+
+Deze directory is voor animated GIFs, vooral voor Ponyo.
+
+Benodigde GIF:
+- ponyo.gif - Ponyo animated gif (300x300px)
+
+Zoek een leuke Ponyo animated gif online. Bijvoorbeeld:
+- Ponyo zwemmend
+- Ponyo transformerend van vis naar mens
+- Ponyo rennend
+
+Let op:
+- Bestandsgrootte niet te groot (max 2MB)
+- Goede kwaliteit maar niet te hoge resolutie
+- Geschikt voor kinderen (leuke, vrolijke bewegingen)
+
+Na het toevoegen van de GIF kun je dit bestand verwijderen.

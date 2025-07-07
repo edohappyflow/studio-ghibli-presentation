@@ -1,0 +1,33 @@
+PLACEHOLDER AFBEELDINGEN INSTRUCTIES
+
+Deze directory bevat placeholder bestanden voor de afbeeldingen die nodig zijn voor de presentatie.
+Vervang deze bestanden door echte Studio Ghibli afbeeldingen voordat je de presentatie geeft.
+
+Benodigde afbeeldingen:
+
+1. studio-ghibli-logo.png - Studio Ghibli logo (200x100px)
+2. totoro.jpg - Kleine Totoro afbeelding (150x150px)
+3. totoro-large.jpg - Grote Totoro afbeelding (300x300px)
+4. totoro-scene.jpg - Totoro bushalte scene (500x300px)
+5. totoro-small.png - Kleine Totoro voor eind slide (100x100px)
+6. ponyo.jpg - Kleine Ponyo afbeelding (150x150px)
+7. ponyo-scene.jpg - Ponyo en Sosuke scene (500x300px)
+8. ponyo-small.png - Kleine Ponyo voor eind slide (100x100px)
+9. gigi.jpg - Kleine Gigi afbeelding (150x150px)
+10. gigi-large.jpg - Grote Gigi afbeelding (300x300px)
+11. gigi-scene.jpg - Gigi en Kiki vliegen scene (500x300px)
+12. gigi-small.png - Kleine Gigi voor eind slide (100x100px)
+
+Voor animated GIFs:
+- assets/gifs/ponyo.gif - Ponyo animated gif (300x300px)
+
+Zoek deze afbeeldingen op internet of gebruik stills uit de films.
+Let op copyright - gebruik alleen afbeeldingen die je mag gebruiken voor educatieve doeleinden.
+
+Bronnen:
+- Officiele Studio Ghibli website
+- IMDB filmstills
+- Wikimedia Commons
+- Pinterest (met bronvermelding)
+
+Na het toevoegen van de afbeeldingen kun je dit bestand verwijderen.
