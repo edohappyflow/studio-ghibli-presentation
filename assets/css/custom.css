@@ -84,12 +84,15 @@
     align-items: center;
     margin: 1.5em 0;
     gap: 0.5em;
+    width: 100%;
+    max-width: 85vw;
 }
 
 .character-grid > div {
     text-align: center;
     padding: 0.8em;
     flex: 1;
+    min-width: 0;
 }
 
 .character-grid img {
@@ -105,15 +108,18 @@
 /* Character detail layout */
 .character-detail {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin: 1em 0;
     gap: 1.5em;
+    width: 100%;
+    max-width: 90vw;
 }
 
 .character-image {
     flex: 1;
     text-align: center;
+    min-width: 0;
 }
 
 .character-image img {
@@ -124,6 +130,7 @@
 .character-info {
     flex: 1;
     padding-left: 0;
+    min-width: 0;
 }
 
 .character-info h3 {
@@ -152,6 +159,8 @@
     gap: 0.8em;
     margin: 1.5em 0;
     padding: 0 0.5em;
+    width: 100%;
+    max-width: 90vw;
 }
 
 .special-features > div {
@@ -161,6 +170,7 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
+    min-width: 0;
     max-width: calc(33.333% - 0.53em);
 }
 
@@ -205,6 +215,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     margin: 1.5em 0;
+    width: 100%;
+    max-width: 80vw;
 }
 
 .japan-interests > div {
@@ -343,22 +355,38 @@
     }
 }
 
-/* Ensure content always fits on screen */
+/* Ensure content always fits on screen - optimized for r-fit-text */
 .reveal .slides section {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 2vh 2vw;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .reveal .slides section > * {
-    max-width: 100%;
-    max-height: 90vh;
-    overflow: visible;
+    max-width: 96vw;
+    width: 100%;
+}
+
+/* Fix for r-fit-text elements */
+.reveal .r-fit-text {
+    max-width: 96vw !important;
+    width: auto !important;
+    line-height: 1.2 !important;
+    white-space: nowrap;
+    margin: 0.2em 0 !important;
+}
+
+/* Allow wrapping for longer titles */
+.reveal h2:not(.r-fit-text),
+.reveal h3:not(.r-fit-text) {
+    white-space: normal;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 /* Magical touch - subtle animations */
