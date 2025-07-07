@@ -1,0 +1,174 @@
+/* Studio Ghibli Minimal Theme Customizations */
+
+/* Custom Studio Ghibli colors for backgrounds */
+.reveal section[data-background-color="#87CEEB"] { background-color: #87CEEB !important; }
+.reveal section[data-background-color="#FFF8DC"] { background-color: #FFF8DC !important; }
+.reveal section[data-background-color="#E6E6FA"] { background-color: #E6E6FA !important; }
+.reveal section[data-background-color="#F0FFF0"] { background-color: #F0FFF0 !important; }
+.reveal section[data-background-color="#FFE4E1"] { background-color: #FFE4E1 !important; }
+.reveal section[data-background-color="#8FBC8F"] { background-color: #8FBC8F !important; }
+.reveal section[data-background-color="#98FB98"] { background-color: #98FB98 !important; }
+.reveal section[data-background-color="#E0F6FF"] { background-color: #E0F6FF !important; }
+.reveal section[data-background-color="#DDA0DD"] { background-color: #DDA0DD !important; }
+.reveal section[data-background-color="#F0E6FF"] { background-color: #F0E6FF !important; }
+.reveal section[data-background-color="#FFB6C1"] { background-color: #FFB6C1 !important; }
+.reveal section[data-background-color="#FFFFE0"] { background-color: #FFFFE0 !important; }
+.reveal section[data-background-color="#E6F3FF"] { background-color: #E6F3FF !important; }
+.reveal section[data-background-color="#F0F8FF"] { background-color: #F0F8FF !important; }
+.reveal section[data-background-color="#FFF0F5"] { background-color: #FFF0F5 !important; }
+.reveal section[data-background-color="#F5FFFA"] { background-color: #F5FFFA !important; }
+
+/* Character grid layout */
+.character-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.character-grid > div {
+    text-align: center;
+    flex: 1;
+}
+
+/* Character detail layout */
+.character-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.character-image {
+    flex: 1;
+    text-align: center;
+}
+
+.character-info {
+    flex: 1;
+}
+
+.character-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-info li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Special features layout */
+.special-features {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.special-features > div {
+    text-align: center;
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Japan interests grid */
+.japan-interests {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    margin: 2em 0;
+}
+
+.japan-interests > div {
+    text-align: center;
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Scene description styling */
+.scene-description {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.scene-description p {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+/* Quiz options styling */
+.quiz-options {
+    margin: 1.5em 0;
+}
+
+.quiz-options p {
+    margin: 0.8em 0;
+    padding: 0.8em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #3498DB;
+}
+
+/* End slide characters */
+.end-characters {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .character-detail {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .character-grid {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    
+    .japan-interests {
+        grid-template-columns: 1fr;
+    }
+    
+    .special-features {
+        flex-direction: column;
+    }
+    
+    .end-characters {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Fragment highlighting */
+.reveal .fragment.highlight-blue {
+    color: #3498DB;
+    font-weight: 700;
+}
+
+/* Floating animation for title */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.title-image > div {
+    animation: float 3s ease-in-out infinite;
+}
